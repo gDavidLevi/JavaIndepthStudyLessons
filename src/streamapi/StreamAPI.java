@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 /**
  * StreamAPI
  */
-public class MC02StreamAPI {
+public class StreamAPI {
     public static void main(String[] args) throws IOException {
         // Ящик с фруктами
         ArrayList<Fruit> fruitsBox = new ArrayList<>(Arrays.asList(

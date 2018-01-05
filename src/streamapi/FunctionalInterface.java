@@ -4,7 +4,7 @@ package streamapi;
  * Функциональный интерфейс
  * Вызов метода внутри метода
  */
-public class MС01FunctionalInterface {
+public class FunctionalInterface {
     public static void main(String[] args) {
         // Пример вызова
         doSomething(new FuncInterface() {
@@ -29,7 +29,7 @@ public class MС01FunctionalInterface {
 /**
  * Функциональный интерфейс
  */
-@FunctionalInterface
+@java.lang.FunctionalInterface
 interface FuncInterface {
     void doSomething();
 }
