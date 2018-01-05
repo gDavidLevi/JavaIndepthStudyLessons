@@ -11,7 +11,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Iterator;
 import java.util.Set;
 
-public class Lesson {
+public class Nio {
     public static void main(String[] args) throws IOException {
         final String rootPath = "src/nio/folder/";
 
